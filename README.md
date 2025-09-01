@@ -90,19 +90,6 @@ You can print intermediate variables in Streamlit to understand the data and pre
 
 
 
-
-RMSE Explanation
-RMSE (Root Mean Squared Error) measures how far predictions are from actual prices
-
-Smaller RMSE → more accurate predictions
-
-Useful for evaluating model performance on test data
-
-Requirements
-Python 3.9+
-
-Packages listed in requirements.txt
-
 Author
 Sanjaikumar
 
