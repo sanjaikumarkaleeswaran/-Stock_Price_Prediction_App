@@ -23,6 +23,10 @@ The app fetches historical stock data, trains a model, predicts trends, calculat
 ```bash
 git clone https://github.com/YourUsername/stock-prediction-app.git
 cd stock-prediction-app
+
+
+
+
 2️⃣ Create a Virtual Environment (Recommended)
 bash
 Copy code
@@ -30,18 +34,32 @@ Copy code
 python -m venv venv
 venv\Scripts\activate
 
+
+
+
 # Mac/Linux
 python -m venv venv
 source venv/bin/activate
+
+
+
+
 3️⃣ Install Dependencies
 bash
 Copy code
 pip install -r requirements.txt
+
+
+
+
 4️⃣ Run the Streamlit App
 bash
 Copy code
 streamlit run stock_prediction_app.py
 Open the URL provided in the terminal (usually http://localhost:8501) in your browser.
+
+
+
 
 5️⃣ Using the App
 Enter Stock Ticker (e.g., AAPL, TSLA) in the sidebar
@@ -62,14 +80,17 @@ Test RMSE metric
 
 30-day forecast plot
 
+
+
+
+
 6️⃣ Optional: Explore Variables
 You can print intermediate variables in Streamlit to understand the data and predictions:
 
-python
-Copy code
-st.write("X_train shape:", X_train.shape)
-st.write("y_train sample:", y_train[:5])
-st.write("First prediction:", train_predict_inv[0])
+
+
+
+
 RMSE Explanation
 RMSE (Root Mean Squared Error) measures how far predictions are from actual prices
 
@@ -83,5 +104,5 @@ Python 3.9+
 Packages listed in requirements.txt
 
 Author
-Sunil
+Sanjaikumar
 
