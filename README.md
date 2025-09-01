@@ -14,13 +14,3 @@ Clone the repository:
 ```bash
 git clone https://github.com/sanjaikumarkaleeswaran/stock-prediction-app.git
 cd stock-prediction-app
-
-
-
-
-
-
-
-
-
-
